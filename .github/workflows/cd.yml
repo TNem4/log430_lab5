@@ -28,6 +28,6 @@ jobs:
       - name: Construire et publier l'image
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./src
           push: true
           tags: ${{ steps.image.outputs.name }}:latest
