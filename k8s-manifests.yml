@@ -151,7 +151,7 @@ spec:
           # TODO: remplacez par VOTRE image publiee sur GHCR
           #       ex. ghcr.io/<votre-username>/<votre-depot>:latest
           #       Le paquet doit etre public, sinon voir imagePullSecrets dans kubernetes.md
-          image: nkinesis/store-manager:latest
+          image: ghcr.io/tnem4/log430_lab5:latest
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
